@@ -1,0 +1,19 @@
+* {
+    -fx-primary-color: #3224b2;
+    -fx-secondary-color: #293994;
+    -fx-grey-color: #b9b9b9;
+    -fx-prompt-text-fill: #293994;
+
+    -fx-focus-color: -fx-secondary-color;
+}
+
+.text-field {
+    -fx-accent: -fx-primary-color;
+    -fx-background-color: -fx-grey-color, white;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-background-radius: 0;
+}
+.text-field:focused {
+    -fx-background-color: -fx-primary-color, white;
+}
+

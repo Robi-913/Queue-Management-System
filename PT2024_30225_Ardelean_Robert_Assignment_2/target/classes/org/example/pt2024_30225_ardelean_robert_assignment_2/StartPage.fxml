@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="panelStart" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="720.0" stylesheets="@CSSFiles/StartPage.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.pt2024_30225_ardelean_robert_assignment_2.InterfaceController">
+   <children>
+      <TextField fx:id="nrOfClients" alignment="CENTER" layoutX="100.0" layoutY="210.0" prefWidth="240.0" promptText="Clients (N)" stylesheets="@CSSFiles/TextField.css">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="nrOfQueues" alignment="CENTER" layoutX="380.0" layoutY="210.0" prefWidth="240.0" promptText="Queues (Q)" stylesheets="@CSSFiles/TextField.css">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="simulationInterval" alignment="CENTER" layoutX="240.0" layoutY="290.0" prefWidth="240.0" promptText="Simulation interval (t)" stylesheets="@CSSFiles/TextField.css">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="arrivalTime" alignment="CENTER" layoutX="100.0" layoutY="370.0" prefWidth="240.0" promptText="Arrival time (min,max)" stylesheets="@CSSFiles/TextField.css">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="serviceTime" alignment="CENTER" layoutX="380.0" layoutY="370.0" prefWidth="240.0" promptText="Service time (min,max)" stylesheets="@CSSFiles/TextField.css">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <Button id="startButton" fx:id="startSimulationButton" layoutX="260.0" layoutY="470.0" mnemonicParsing="false" onAction="#onStartSimulation" prefHeight="40.0" prefWidth="200.0" stylesheets="@CSSFiles/StartPage.css" text="Start Simulation">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Label id="title" layoutX="180.0" layoutY="79.0" prefHeight="42.0" prefWidth="360.0" stylesheets="@CSSFiles/StartPage.css" text="QUEUES MANAGEMENT" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

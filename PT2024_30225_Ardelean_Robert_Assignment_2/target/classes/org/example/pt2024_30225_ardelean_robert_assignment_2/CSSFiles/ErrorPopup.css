@@ -1,0 +1,26 @@
+/* ErrorPopup.css */
+.error-panel {
+    -fx-border-color: #3224b2;
+    -fx-border-width: 6px;
+    -fx-background-color: white;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: red; /* Keep text color red */
+    -fx-alignment: center;
+    -fx-underline: true;
+}
+
+.button-bar .button {
+    -fx-background-color: #3224b2;
+    -fx-text-fill: white;
+}
+
+.button-bar .button:hover {
+    -fx-background-color: #293994;
+}
+
+.button-bar {
+    -fx-alignment: center; /* Ensures buttons are centered */
+}
